@@ -37,6 +37,10 @@ h1 {
 h2 {
   font-size: 45px;
 }
+h4 {
+  font-size: 48px;
+}
+
 p {
   color: var(--secondary-color);
   font-weight: normal;
@@ -118,6 +122,34 @@ p {
   color: #a8e6cf !important;
 }
 
+footer {
+  margin: 80px 0;
+  background: var(--background-color);
+  padding: 40px 0;
+}
+
+footer .contact-box {
+  background-color: var(--background-color) !important;
+  padding: 30px 120px;
+  border-radius: 50px;
+}
+footer .contact-box {
+  margin: 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: white;
+  background: #2f8287 !important;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+footer .social-links:hover {
+  color: #2f8287;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -130,6 +162,9 @@ p {
     padding: 80px 20px;
   }
 
+  h4 {
+    font-size: 26px;
+  }
   .content-container {
     text-align: center;
     padding: 0;
