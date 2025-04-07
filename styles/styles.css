@@ -15,6 +15,7 @@
 
 body {
   font-family: var(--default-font-family);
+  overflow-x: hidden;
 }
 
 h1,
@@ -90,7 +91,7 @@ p {
 }
 
 .content {
-  margin: 30px;
+  padding: 0 15px;
 }
 
 .btn-branding {
@@ -99,7 +100,7 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 30px;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -167,11 +168,24 @@ footer .social-links:hover {
   }
   .content-container {
     text-align: center;
-    padding: 0;
+    padding: 40px 15px;
+  }
+  .content {
+    margin: 0 15px;
+  }
+
+  .btn-branding,
+  .btn-branding-outline {
+    padding: 10px 20px;
+    font-size: 16px;
   }
 
   .project-description {
-    padding: 0;
+    padding: 20px;
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px 20px;
   }
 }
